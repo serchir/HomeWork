@@ -26,5 +26,4 @@ public class Bank {
     public Client findClient(Account account) {
         return this.accountClient.get(account);
     }
-
 }
